@@ -4,10 +4,13 @@ A production-ready **REST API backend** for a Food Ordering Point-of-Sale (POS) 
 
 ---
 
-## 🚀 Live API Docs
+## 🚀 Live Demo
 
-> After running locally, visit: **http://localhost:8000/docs**
-> FastAPI provides interactive Swagger UI — test all endpoints directly in the browser.
+> 🔗 **[Live API on Render →](https://your-app-name.onrender.com/docs)**
+> *(Replace this link after deploying to Render.com)*
+
+After running locally, visit: **http://localhost:8000/docs**
+FastAPI provides interactive Swagger UI — test all endpoints directly in the browser.
 
 ---
 
@@ -30,7 +33,7 @@ A production-ready **REST API backend** for a Food Ordering Point-of-Sale (POS) 
 | Framework | FastAPI |
 | ORM | SQLAlchemy |
 | Database | SQLite |
-| Validation | Pydantic |
+| Validation | Pydantic v2 |
 | Server | Uvicorn |
 
 ---
@@ -225,18 +228,18 @@ This gives a complete **change history** for every item and variant in the syste
 ## 📌 Requirements
 
 ```
-fastapi
-uvicorn
-sqlalchemy
-pydantic
+fastapi>=0.100.0
+uvicorn>=0.22.0
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
 ```
 
 ---
 
 ## 👨‍💻 Author
 
-**Vishnu Mohan P**
-Python & FastAPI Backend Developer
+**Vishnu Mohan P**  
+Python & FastAPI Backend Developer  
 [GitHub](https://github.com/VishnuMohanp-10) · [LinkedIn](https://linkedin.com/in/vishnu-mohan-p/)
 
 ---
